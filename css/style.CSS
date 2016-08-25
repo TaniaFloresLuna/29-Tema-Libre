@@ -1,3 +1,63 @@
+/*Estilos*/
+.bg-pr{
+	background-color: purple;
+}
+
+/*Universales*/
+.text-white{
+	color: white;
+}
+.mg-t{
+	margin-top: 5em;
+}
+.pd-5{
+	margin: 5%;
+}
+.mg-l{
+	margin-left: 5%;
+}
+
+
+/*Icono Bootstrap*/
 .bt{
 	border-radius: 10%;
+}
+/*Video*/
+.vd{
+	width: 100%;
+	height: 30em;
+	margin-top: 4em;
+}
+
+/*Img background*/
+#medianolg{
+	background-image: url(../image/lg_grid.jpg);
+}
+#medianomd{
+	background-image: url(../image/col-md.png);
+}
+#medianosm{
+	background-image: url(../image/col-sm.jpg);
+}
+#medianoxs{
+	background-image: url(../image/col-xs.png);	
+}
+
+.medida{
+	height: 25em;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 3px purple solid;
+	border-radius: 10%;
+}
+
+.clr{
+	background-color: #000;
+}
+.medida .clr{
+	opacity: 0;
+}
+.clr:hover{
+	opacity: 0.7;
+	margin-top: -5px;
 }

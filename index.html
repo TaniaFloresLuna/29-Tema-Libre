@@ -6,6 +6,7 @@
 	<title>Tema Libre</title>
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
 	<link rel="stylesheet" href="css/font-awesome.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -14,7 +15,7 @@
 
 
 </head>
-<body>
+<body class="bg-pr">
 	<div class="container">
 		<header>
 			<div class="row"><!--Menú-->
@@ -35,8 +36,8 @@
 						<!-- Enlaces de navegación -->
 						<div class="collapse navbar-collapse navbar-ex1-collapse">
 							<ul class="nav navbar-nav navbar-right ">
-								<li class="active"><a href="#">Bootstrap</a></li>
-								<li><a href="#">Medidas</a></li>
+								<li class="active"><a href="#bootstraps">Bootstrap</a></li>
+								<li><a href="#medidas">Medidas</a></li>
 								<li><a href="#">Gaphycon</a></li>
 								<li><a href="#">Navegación</a></li>
 								<li><a href="#">Contacto</a></li>
@@ -46,12 +47,48 @@
   				</div>
 			</div><!--Fin del menú-->
 		</header>
-		<section><!---->
-			
-		</section><!---->
-		<section><!---->
-			
-		</section><!---->
+		<section id="bootstraps"><!--Comienza Detalles de bootstrap-->
+			<div class="row">
+				<div class="col-lg-7 col-md-6 col-sm-12 col-xs-12"><!--Video-->
+					<iframe src="https://www.youtube.com/embed/E_BrfH10OTc" frameborder="0" allowfullscreen class="vd">	
+					</iframe>
+				</div>
+				<div class="col-lg-5 col-md-6 col-sm-12 col-xs-12"><!--Texto-->
+					<h1 class="text-white text-center mg-t">BOOTSTRAP</h1>
+					<p class="text-white pd-5">Bootstrap es un framework de css, en otras palabras es un conjunto de archivos CSS que incluyes en tu página y puedes empezar a maquetar el sitio web en minutos, sin tocar una sola linea de CSS.</p>
+					<p class="text-white pd-5">Si eres desarrollador web, debes utilizar Bootstrap</p>
+					<a href="http://librosweb.es/libro/bootstrap_3/" class="btn btn-primary btn-lg active mg-l" role="button">MÁS INFORMACIÓN</a><!--Botón-->
+				</div>
+			</div>
+		</section><!--Termina Detalles de bootstrap-->
+		<section id="medidas"><!--Comienza Medidas de Bootstrap-->
+			<div class="row">
+				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 medida" id="medianolg">
+					<div class="clr medida">
+						<p class="text-center text-white mg-t">Dispositivos grandes<br> Ordenadores<br> (≥1200px)</p>
+					</div>
+
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 medida" id="medianomd">
+					<div class="clr medida">
+						<p class="text-center text-white mg-t">Dispositivos medianos<br> Ordenadores<br> (≥992px)</p>
+					</div>
+
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 medida" id="medianosm">
+					<div class="clr medida">
+						<p class="text-center text-white mg-t">Dispositivos pequeños<br> Tablets<br> (≥768px)</p>
+					</div>
+
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 medida" id="medianoxs">
+					<div class="clr medida">
+						<p class="text-center text-white mg-t">Dispositivos muy pequeños<br> Teléfonos<br> (menor-768px)</p>
+					</div>
+
+				</div>
+			</div>
+		</section><!--Termina Medidas de Bootstrap-->
 		<section><!---->
 			
 		</section><!---->
