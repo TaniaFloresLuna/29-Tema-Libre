@@ -29,7 +29,7 @@
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
                 			</button>
-                			<a href="http://getbootstrap.com/"><!--Logo-->
+                			<a href="http://getbootstrap.com/" target="blank"><!--Logo-->
                 				<img src="image/boots.png" alt="Bootstrap" class="bt">
                 			</a>
               			</div>
@@ -38,9 +38,8 @@
 							<ul class="nav navbar-nav navbar-right ">
 								<li class="active"><a href="#bootstraps">Bootstrap</a></li>
 								<li><a href="#medidas">Medidas</a></li>
-								<li><a href="#">Gaphycon</a></li>
-								<li><a href="#">Navegación</a></li>
-								<li><a href="#">Contacto</a></li>
+								<li><a href="#generales">Generales</a></li>
+								<li><a href="#contacto">Contacto</a></li>
         					</ul>
       					</div>
     				</nav>
@@ -57,7 +56,7 @@
 					<h1 class="animated hinge slideInRight text-white text-center mg-t">BOOTSTRAP</h1>
 					<p class="text-white pd-5">Bootstrap es un framework de css, en otras palabras es un conjunto de archivos CSS que incluyes en tu página y puedes empezar a maquetar el sitio web en minutos, sin tocar una sola linea de CSS.</p>
 					<p class="text-white pd-5">Si eres desarrollador web, debes utilizar Bootstrap</p>
-					<a href="http://librosweb.es/libro/bootstrap_3/" class="btn btn-primary btn-lg active mg-l" role="button">MÁS INFORMACIÓN</a><!--Botón-->
+					<a href="http://librosweb.es/libro/bootstrap_3/" class="btn btn-primary btn-lg active mg-l" role="button" target="blank">MÁS INFORMACIÓN</a><!--Botón-->
 				</div>
 			</div>
 		</section><!--Termina Detalles de bootstrap-->
@@ -65,11 +64,10 @@
 			<div class="row">
 				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 medida" id="medianolg">
 					<div class="clr medida">
-						<a href="#">
-						<p class="animated hinge slideInRight text-center text-white mg-t">Dispositivos grandes<br> Ordenadores<br> (≥1200px)</p>
+						<a href="http://getbootstrap.com/" target="blank">
+							<p class="animated hinge slideInRight text-center text-white mg-t">Dispositivos grandes<br> Ordenadores<br> (≥1200px)</p>
 						</a>
 					</div>
-
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 medida" id="medianomd">
 					<div class="clr medida">
@@ -85,33 +83,62 @@
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 medida" id="medianoxs">
 					<div class="clr medida">
-						<p class=" animated hinge slideInRight text-center text-white mg-t">Dispositivos muy pequeños<br> Teléfonos<br> (menor-768px)</p>
+						<p class=" animated hinge slideInRight text-center text-white mg-t">Dispositivos muy pequeños<br> Teléfonos<br> (≥768px)</p>
 					</div>
 				</div>
 			</div>
 		</section><!--Termina Medidas de Bootstrap-->
-		<section><!--Extras en bootstrap-->
+		<section id="generales"><!--Extras en bootstrap-->
 			<div class="row">
 				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-					<a href="http://glyphicons.com/">
+					<a href="http://glyphicons.com/" target="blank"><!--Titulo con enlace-->
 						<h2 class=" animated hinge slideInRight text-center text-white"><i>Glyphicon</i></h2>
 					</a>
 					<p class="text-center text-white pd-5">Como los iconos son vectoriales, quedan bien en cualquier elemento y a cualquier tamaño. Utilízalos en botones, barras de navegación o incluso en campos de formulario.</p>
 				</div>
 				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
 					<h2 class=" animated hinge slideInRight text-center text-white">Barra de Navegación</h2>
-					<p class="text-center text-white pd-5 small">Las barras de navegación son componentes adaptados al diseño web responsive y que se utilizan como elemento principal de navegación tanto en las aplicaciones como en los sitios web. En los dispositivos móviles se muestran inicialmente minimizadas y al pulsar sobre ellas, se despliegan todas sus opciones. Si la anchura del dispositivo aumenta hasta un nivel suficiente, las barras de navegación muestran todos sus contenidos horizontalmente.</p>
+					<p class="text-center text-white pd-5 small">Las barras de navegación se utilizan como elemento principal de navegación tanto en las aplicaciones como en los sitios web. En los dispositivos móviles se muestran minimizadas y al pulsar sobre ellas, despliegan todas sus opciones. Si la anchura del dispositivo aumenta hasta un nivel suficiente, las barras de navegación muestran todos sus contenidos.</p>
 				</div>
 				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-					
+					<h2 class=" animated hinge slideInRight text-center text-white">Contacto</h2>
+					<p class="text-center text-white pd-5 small">Para que el formulario ocupe el menor espacio posible, añade la clase .form-inline para que las etiquetas 'label' se muestren a la izquierda de cada campo del formulario.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+					<img src="image/Glyphicons-Halflings-Bootstrap.jpg" alt="Glyphicons-Halflings-Bootstrap" class="img-responsive medida"><!--Imágen responsive-->
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+					<img src="image/navbar-bootstrap-tutorial-dropdown.gif" alt="navbar-bootstrap-tutorial-dropdown" class="img-responsive medida"><!--Imágen responsive-->
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+					<img src="image/contact-form.jpg" alt="contact-form" class="img-responsive medida"><!--Imágen responsive-->
 				</div>
 			</div>
 		</section><!--Extras en bootstrap-->
-		<footer><!---->
-			
-		</footer><!---->
+		<footer class="mg-t" id="contacto"><!--Inicia Píe de página-->
+			<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+				<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+					
+				</div>
+				<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+					<a href="gmail.com">
+						<img src="image/social/phone-book.png" alt="phone" class="pequeño">
+					</a>
+					<a href="gmail.com">
+						<img src="image/social/mail.png" alt="mail" class="pequeño">
+					</a>
+				</div>
+				<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+					<a href="facebook.com">
+						<p class="text-right small">by TPL</p>
+					</a>
+				</div>
+			</nav>
+		</footer><!--Termina Píe de página-->
 	</div>
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 </body>
-</html
+</html>

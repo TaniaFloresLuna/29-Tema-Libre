@@ -16,6 +16,10 @@
 .mg-l{
 	margin-left: 5%;
 }
+.pequeño{
+	width: 32px;
+	height: 32px;
+}
 
 
 /*Icono Bootstrap*/
@@ -50,9 +54,13 @@
 	border: 3px purple solid;
 	border-radius: 10%;
 }
-
+/*Animación*/
 .clr{
 	background-color: #000;
+	-webkit-animation-name: example; 
+    -webkit-animation-duration: 5s; 
+    animation-name: example;
+    animation-duration: 5s;
 }
 .medida .clr{
 	opacity: 0;
@@ -61,3 +69,9 @@
 	opacity: 0.7;
 	margin-top: -5px;
 }
+/*Efecto color*/
+@-webkit-keyframes example {
+    from {background-color: #000;}
+    to {background-color: blue;}
+}
+
